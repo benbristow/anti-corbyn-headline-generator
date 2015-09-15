@@ -15,8 +15,10 @@ html, body {
 
 .container {
   width:100vw;
+  max-width: 100vw;
   min-height: 100vh;
-  overflow-x:hidden;
+  
+  overflow:hidden;
   
   background-image:url('../img/corbyn.jpg');
   background-size:cover;
@@ -67,11 +69,13 @@ html, body {
 }
 
 .copyright {
-  position: absolute;
-  bottom:0px;
-  width:100vw;
+  margin-top:10px;
+  background:rgba(0, 0, 0, 0.75);
   padding:5px;
-  background-color:rgba(0, 0, 0, 0.5);
+  width:200px;
+  margin-left:auto;
+  margin-right: auto;
+  border-radius:5px;
 }
 
 .copyright a {

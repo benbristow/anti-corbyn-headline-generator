@@ -1,0 +1,100 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+
+html, body {
+  font-family:'Roboto' sans-serif;
+  color:#ECECEC;
+  
+  /* Disable selection because or else you get ugly blue selections when clicking to generate */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+.container {
+  width:100vw;
+  min-height: 100vh;
+  overflow-x:hidden;
+  
+  background-image:url('../img/corbyn.jpg');
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: center;
+
+  text-align: center;
+}
+
+.central {
+  margin-top:5%;
+  margin-left: auto;
+  margin-right:auto;
+  width:80%;
+}
+
+.heading {
+  text-shadow: 2px 2px #111;
+}
+
+.heading > h1 {
+  font-size:4em;
+}
+
+.heading > h2 {
+  font-size:2.5em;
+}
+
+.heading > h2 > a {
+  color:#EEE;
+}
+
+.heading > h2 > a:hover {
+  color:#CCC;
+}
+
+.generated {
+  color:#222;
+  background:rgba(255, 255, 255, 0.5);
+  border-radius:5px;
+  padding:5px;
+  margin-top:50px;
+}
+
+#phrase {
+  font-size:5em;
+  word-wrap: break-word;
+}
+
+.copyright {
+  position: absolute;
+  bottom:0px;
+  width:100vw;
+  padding:5px;
+  background-color:rgba(0, 0, 0, 0.5);
+}
+
+.copyright a {
+  color:#CECECE;
+  text-decoration: underline;
+}
+
+.copyright a:hover {
+  color:#999; 
+}
+
+/* Responsive */
+@media screen and (max-width:960px) {
+  .heading > h1 {
+    font-size:2.7em;
+    font-weight: 500;
+  }
+  
+  .heading > h2 {
+    font-size:1.8em;
+  }
+  
+  #phrase {
+    font-size:3em;
+  }
+}

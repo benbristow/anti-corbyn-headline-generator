@@ -66,6 +66,7 @@ html, body {
 #phrase {
   font-size:5em;
   word-wrap: break-word;
+  cursor:pointer;
 }
 
 .copyright {

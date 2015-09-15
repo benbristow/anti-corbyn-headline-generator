@@ -18,7 +18,7 @@ html, body {
   max-width: 100vw;
   min-height: 100vh;
   
-  overflow:hidden;
+  overflow-x:hidden;
   
   background-image:url('../img/corbyn.jpg');
   background-size:cover;
@@ -90,12 +90,16 @@ html, body {
 /* Responsive */
 @media screen and (max-width:960px) {
   .heading > h1 {
-    font-size:2.7em;
+    font-size:2em;
     font-weight: 500;
   }
   
   .heading > h2 {
     font-size:1.8em;
+  }
+  
+  .generated {
+    margin-top:15px;
   }
   
   #phrase {
